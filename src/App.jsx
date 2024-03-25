@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Temperature from "./components/Temperature";
 import Highlights from "./components/Highlights";
+
 function App() {
   const [city, setCity] = useState("Lagos");
   const [weatherData, setWeatherData] = useState(null);
